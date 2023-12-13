@@ -2,4 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #609DBB;
+    height: 150px;
+}
+
+#logo {
+    width: 180px;
+}
+
+#text-logo {
+    width: 250px;
+}
+
+main {
+    height: calc(100vh - 150px);
+    background-color: lightgrey;
+    overflow-y: auto;
+    background-image: url(../img/barrier.jpg);
+}
+
+.list-container {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+li{
+    padding: 15px 0;
+    border-bottom: 1px solid white;
+}
+
+.add-task input {
+    width: 600px;
 }
